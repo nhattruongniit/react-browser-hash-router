@@ -13,7 +13,7 @@ function App() {
       <nav>
         <Link to="/" replace>Home</Link> | 
         <Link to="/contact">Contact</Link> |
-        <Link to="/About">About</Link>
+        <Link to="/about">About</Link>
       </nav>
 
       <Routes>
