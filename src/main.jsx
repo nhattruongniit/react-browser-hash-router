@@ -4,7 +4,9 @@ import App from './App.jsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
+  <HashRouter>
     <App />
-  </BrowserRouter>,
+  </HashRouter>,
 )
+
+// browser route + hash route: https://github.com/nhattruongniit/react-browser-hash-router
